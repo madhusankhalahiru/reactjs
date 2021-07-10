@@ -8,7 +8,7 @@ function App() {
   const saveShoppingItemHandler = (shoppingItem) =>{
     console.log(shoppingItem);
   }
-  // Added a comment
+  // Added a comment asasa
   return (
     <div className="App">
       <ShoppingCart onSaveShoppingItem={saveShoppingItemHandler} />
